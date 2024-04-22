@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+
+:root {
+    --background: var(--swatch--gainsboro);
+    --paragraph: var(--swatch--dark-grey);
+    --heading: var(--swatch--black);
+    --swatch--black: black;
+    --swatch--blue-1: #4b7697;
+    --swatch--white: white;
+    --button-bg-primary: var(--swatch--white);
+    --button-text-primary: var(--swatch--black);
+    --swatch--blue-3: #c1cfd9;
+    --button-bg-secondary: var(--swatch--transparent);
+    --button-text-secondary: var(--swatch--white);
+    --strokes: var(--swatch--light-grey);
+    --stroke-2: #bcbcbc;
+    --swatch--light-grey: #d0d0d0;
+    --white\<deleted\|variable-1766b841\>: white;
+    --swatch--gainsboro: #e8e8e8;
+    --swatch--transparent: rgba(255, 255, 255, 0);
+    --swatch--dark-grey: #676767;
+    --swatch--blue-2: #7fa5c0;
+}
+
+body{
+    background: #e8e8e8;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color:  white;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: -webkit-linear-gradient(90deg,#e8e8e8 10%, #4b7697 80%);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.header{
+    padding-top: 13%;
+}
+
+.header h1{
+    font-size: 50px;
+    text-align: center;
+    color: #e8e8e8;
+}
+
+.header p{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: #e8e8e8;
+}
+
+.terms-body{
+    width: 100%;
+    padding: 0 200px;
+    margin-bottom: 30px;
+}
+
+.terms h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #131010;
+}
+
+.terms p{
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: #373737;
+}
+
+.ownership h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #131010;
+}
+
+.ownership p{
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: #373737;
+}
+
+.links h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #131010;
+}
+
+.links p{
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: #373737;
+}
+
+.limitation h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #131010;
+}
+
+.limitation p{
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: #373737;
+}
+
+.Indemnification h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #131010;
+}
+
+.Indemnification p{
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: #373737;
+}
+
+.Modification h1{
+    font-size: 23px;
+    margin-bottom: 20px;
+    color: #131010;
+}
+
+.Modification p{
+    width: 100%;
+    margin-bottom: 35px;
+    font-size: 19px;
+    color: #373737;
+}
+
+.law h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #131010;
+}
+
+.law p{
+    width: 100%;
+    font-size: 19px;
+    color: #373737;
+}
+
+/* ----------------- body-text ------------------ */
+
+.body-text{
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 40px;
+    background: #4b7697;
+    padding: 10px 0;
+}
+
+.body-text h1{
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+    font-weight: 400;
+    max-width: 64%;
+    margin-left: 4em;
+    color: #e8e8e8;
+}
+
+.body-text p{
+    font-weight: 400;
+    max-width: 58%;
+    margin-left: 15em;
+    font-size: 16px;
+    font-weight: 510;
+    color: white;
+    line-height: 22px;
+}
+
+.body-text-button{
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 1px;
+}
+
+.body-text-button a{
+    background: white;
+    color: #676767;
+    font-weight: 400;
+    padding: 15px 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.body-text-button a:hover{
+    background: #d0d0d0;
+}
+.body-text-button .secz{
+    font-weight: 400;
+    background: none;
+    border: 1.5px solid #e8e8e8;
+    color: #e8e8e8;
+    padding: 15px 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.body-text-button .secz:hover{
+    border: 1.5px solid #d0caca;
+    color: #dad2d2;
+    background: #d0d0d01d; 
+}
+
+/* -------------- end-body -------------- */
+
+
+.end-body{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0 50px;
+}
+
+.end-cards{
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+
+.end-card-one h1{
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: #4b7697;
+}
+
+.end-card-one p{
+    font-size: 17px;
+    color: #676767;
+}
+
+.end-card-one .sub-all-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.end-card-one .sub-all-button input{
+    padding: 15px 10px;
+    background: transparent;
+    outline: none;
+    width: 55%;
+    border: 1px solid #676767;
+    border-radius: 5px;
+    color: #676767;
+}
+
+.end-card-one .sub-all-button a {
+    padding: 15px 20px;
+    border: 1px solid #1c1b1b;
+    color: #1c1b1b;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.end-card-one .sub-all-button a:hover{
+    border: 1px solid #676767;
+    color: #676767;
+}
+
+.end-card-one h2{
+    font-size: 13px;
+    font-weight: 400;
+    color: #676767;
+    width: 75%;
+}
+
+.end-card-one h2 a{
+    color: #676767;
+    text-decoration: underline;
+}
+
+.end-card-two{
+    display: flex;
+    gap: 100px;
+}
+
+.list-Pages h1{
+   margin-bottom: 20px; 
+   font-size: 18px;
+}
+
+.list-Pages ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 41px;
+
+}
+
+.list-Pages ul a{
+    color: #676767;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.list-Pages ul a:hover{
+    color: #4b7697;
+
+}
+
+#social a{
+    display: flex;
+    gap: 10px;
+}
+
+#social a span img{
+    width: 30px;
+    margin-top: 5px;
+}
+
+/* -------------- .boldness -------------- */
+
+.boldness{
+    width: 100%;
+    border: 0.5px solid #bab8b8de;
+    margin-bottom: 30px;
+}
+
+
+/* --------------- powered -------------- */
+
+.powered{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.powered p{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 16px;
+    color: #3f3e3e;
+}
+
+.powered p span img{
+    width: 20px;
+    margin-top: 5px;
+}
+
+.powered p a{
+    color: #3f3e3e;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.powered p a:hover{
+    color: #4b7697;
+}
+
+
+@media only screen and (max-width: 480px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    #header{
+        width: 100%;
+        height: 50vh;
+    }
+    .header h1{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .header p{
+        font-size: 20px;
+        padding: 0 15px;
+    }
+    .terms-body{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .terms-body h1{
+        font-size: 25px;
+    }
+    .terms-body p{
+        font-size: 17px;
+    }
+     /* ------------------ tbody-tex ---------- */
+     .body-tex{
+        text-align: center;
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+    .body-text h1{
+        font-size: 25px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .body-text p{
+        max-width: 100%;
+        margin-left: 0;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0 20px;
+    }
+    .body-text-button{
+        padding: 0 30px;
+        flex-direction: column;
+        
+    }
+    .body-text-button a{
+        padding: 15px 15px;
+    }
+    /* -------------- end-body -------------- */
+    .end-body{
+        padding: 0 20px;
+    }
+    .end-cards{
+        width: 100%;
+        gap: 30px;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .end-card-one .sub-all-button{
+        flex-direction: column;
+        align-items: center;
+    }
+    .end-card-one .sub-all-button input{
+        width: 100%;
+    }
+    .end-card-one .sub-all-button a {
+        width: 100%;
+        text-align: center;
+    }
+    .end-card-two{
+        width: 100%;
+        margin-top: 20px;
+        gap: 30px;
+    }
+    .powered p{
+        width: 100%;
+        gap: 2px;
+        font-size: 14px;
+    }
+    
+    .powered p span img{
+        width: 20px;
+    }
+    
+    .powered p a{
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    #header{
+        width: 100%;
+        height: 50vh;
+    }
+    .header h1{
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .header p{
+        font-size: 20px;
+        padding: 0 15px;
+    }
+    .terms-body{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .terms-body h1{
+        font-size: 28px;
+    }
+    .terms-body p{
+        font-size: 17px;
+    }
+     /* ------------------ tbody-tex ---------- */
+     .body-tex{
+        text-align: center;
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+    .body-text h1{
+        font-size: 30px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .body-text p{
+        max-width: 100%;
+        margin-left: 0;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0 20px;
+    }
+    .body-text-button{
+        padding: 0 30px;
+        flex-direction: column;
+        
+    }
+    .body-text-button a{
+        padding: 15px 15px;
+    }
+    /* -------------- end-body -------------- */
+    .end-body{
+        padding: 0 20px;
+    }
+    .end-cards{
+        width: 100%;
+        gap: 30px;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .end-card-one .sub-all-button{
+        flex-direction: column;
+        align-items: center;
+    }
+    .end-card-one .sub-all-button input{
+        width: 100%;
+    }
+    .end-card-one .sub-all-button a {
+        width: 100%;
+        text-align: center;
+    }
+    .end-card-two{
+        width: 100%;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    /* ------------- .powered --------- */
+    .powered{
+        gap: 0;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .powered p{
+        width: 100%;
+        gap: 2px;
+        font-size: 14px;
+    }
+    
+    .powered p span img{
+        width: 20px;
+    }
+    
+    .powered p a{
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    
+    .powered p a:hover{
+        color: #4b7697;
+    }
+}
+
+@media only screen and (max-width: 890px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    #header{
+        width: 100%;
+        height: 50vh;
+    }
+    .header h1{
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .header p{
+        font-size: 20px;
+        padding: 0 15px;
+    }
+    .terms-body{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .terms-body h1{
+        font-size: 28px;
+    }
+    .terms-body p{
+        font-size: 17px;
+    }
+     /* ------------------ tbody-tex ---------- */
+     .body-tex{
+        text-align: center;
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+    .body-text h1{
+        font-size: 30px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .body-text p{
+        max-width: 100%;
+        margin-left: 0;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0 20px;
+    }
+    .body-text-button{
+        padding: 0 30px;
+        /* flex-direction: column; */
+        
+    }
+    .body-text-button a{
+        padding: 15px 15px;
+    }
+    /* -------------- end-body -------------- */
+    .end-body{
+        padding: 0 20px;
+    }
+    .end-cards{
+        width: 100%;
+        gap: 30px;
+        /* flex-direction: column; */
+        padding: 50px 0;
+    }
+    .end-card-one .sub-all-button{
+        flex-direction: column;
+        align-items: center;
+    }
+    .end-card-one .sub-all-button input{
+        width: 100%;
+    }
+    .end-card-one .sub-all-button a {
+        width: 100%;
+        text-align: center;
+    }
+    .end-card-two{
+        width: 100%;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    /* ------------- .powered --------- */
+    .powered{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .powered p{
+        width: 100%;
+        gap: 2px;
+        font-size: 14px;
+    }
+    
+    .powered p span img{
+        width: 20px;
+    }
+    
+    .powered p a{
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    
+    .powered p a:hover{
+        color: #4b7697;
+    }
+}
+
+@media only screen and (max-width: 990){
+    #header{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+/* @media only screen and (max-width: 890px),@media only screen and (max-width: 990px) */
